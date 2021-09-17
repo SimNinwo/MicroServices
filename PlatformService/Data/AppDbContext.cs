@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PlatformService.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,6 @@ namespace PlatformService.Data
 
         }
 
-        public DbSet<Plaform> Plaforms { get; set; }
+        public DbSet<Platform> Platforms { get; set; }
     }
 }
